@@ -1,0 +1,63 @@
+* {
+  color: #ffde0a;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #1e2443 0%, #7358aa 50%, #d3b8d2 100%);
+}
+#search-box-container {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#weatherDetails {
+  background: linear-gradient(to bottom, #1e2443 0%, #7358aa 50%, #d3b8d2 100%);
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#allDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  height: 50vh;
+}
+#theCityDetails {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 85%;
+  padding: 10px;
+  /* background-color: aqua; */
+}
+#theCity {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  height: 1.3rem;
+}
+.searchRelated {
+  padding: 2px;
+  color: #fff30a;
+  border-radius: 5px;
+}
+#cityBox::placeholder {
+  color: #fff30a;
+}
+#search-box {
+  border-radius: 5px;
+  margin-top: 5px;
+}
+p,
+span {
+  font-size: 1.5rem;
+}
+#app {
+  border-radius: 5px;
+}
