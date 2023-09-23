@@ -6,3 +6,4 @@ Features
 Displays current weather conditions, including temperature, humidity, wind speed, and weather icon.
 Provides a search bar to find cities and view their current weather details.
 Responsive design for a seamless experience across devices.
+ 
